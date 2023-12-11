@@ -4,6 +4,7 @@
   --primamy-color: #ff3030;
   --color-white: #ffffff;
   --text-color: #d3d3d3;
+  --footer-color: #303030;
   --background-color: #1a1a1a;
 }
 
@@ -369,8 +370,9 @@ footer {
   }
 
   .content-contact {
-    justify-content: space-between;
-  }
+    gap: 12rem;
+    align-items: center;
+    }
 
   .contact-buttons {
     flex-direction: row;
